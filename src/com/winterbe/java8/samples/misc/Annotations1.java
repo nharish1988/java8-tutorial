@@ -20,7 +20,7 @@ public class Annotations1 {
     @interface Hints {
         Hint[] value();
     }
-
+//Test
     @Repeatable(Hints.class)
     @Retention(RetentionPolicy.RUNTIME)
     @interface Hint {
